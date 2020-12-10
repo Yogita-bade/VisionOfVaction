@@ -26,5 +26,5 @@ app.get('/calc', checkPrime);
 app.use('/', sayhello);
 
 app.listen(8081, () => {
-    console.log('Server is started on 8080')
+    console.log('Server is started on 8081')
 })
